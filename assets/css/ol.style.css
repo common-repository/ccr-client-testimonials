@@ -1,0 +1,104 @@
+.extra-div {
+    background: #FFF;
+    margin: 80px auto;
+    box-shadow: 0px 0px 50px 0px #DADADA;
+    max-width: 500px;
+}
+.clear {
+    clear: both;
+}
+#ccr-testimonials {
+    padding:10px;
+}
+.item .ccr-tfix{
+    position: relative;
+}
+.testimonial-content {
+    background: #F3F3F3;
+    padding:10px;
+    padding-bottom:20px;
+}
+
+.testimonial-content:before, .testimonial-content:after {
+    font-size: 75px;
+    line-height: 0;
+    position: relative;
+    color: #DDD;
+}
+.testimonial-content:before {
+    content: "“";
+    top:35px;
+
+}
+.testimonial-content:after {
+    content: "”";
+    position:absolute;
+    bottom: 0px;
+    padding-left: 5px;
+}
+.testimonial-meta:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #FFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    left: 25px;
+    top: 0px;
+}
+.testimonial-meta {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    background: #EEEEEE;
+    padding: 20px 10px;
+    position: relative;
+}
+.testimonial-meta .client-photo {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+.testimonial-meta .client-photo img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border:5px solid #F3F3F3;
+}
+.testimonial-meta p {
+    margin:0px;
+}
+.testimonial-meta .client-info {
+
+}
+.client-info .client-name {
+    font-size: 17px;
+    color:#686868;
+}
+.client-info .client-designation {
+    color:#7C7C7C;
+    font-style: italic;;
+}
+.testimonial-control {
+    float: right;
+}
+.testimonial-control a {
+    text-decoration: none;
+    border: 1px solid #DDD;
+    padding: 3px 5px 2px;
+}
+.testimonial-control .ccr-carousel-control {
+    color: #000;
+    position: relative;
+}
+.ccr-carousel-control .previcon:before, .ccr-carousel-control .nexticon:before {
+    color:#808080;
+    font-size:20px;
+}
+.ccr-carousel-control .previcon:before {
+    content:"←";
+}
+.ccr-carousel-control .nexticon:before {
+    content:"→"
+}
